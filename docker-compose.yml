@@ -1,0 +1,7 @@
+services:
+  terminal:
+    build: .
+    volumes:
+      - .:/code
+    ports: 
+      - 4000:4000
